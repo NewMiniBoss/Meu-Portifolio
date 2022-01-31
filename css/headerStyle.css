@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* 
+  font-family: 'Righteous', cursive;
+  font-family: 'Sarala', sans-serif;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cabecalho {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cabecalho__imagem {
+  height: 100px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.cabecalho__imagem:hover {
+  height: 200px;
+}
+
+.cabecalho__menu {
+  display: flex;
+}
+
+.cabecalho__menu-item {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFF2E7;
+  margin: 0 32px 0 0;
+  transition: 1s;
+}
+
+.cabecalho__menu-item:hover {
+  color: green;
+  font-size: 20px;
+}
