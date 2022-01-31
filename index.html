@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1><em>Dev. Jr</em></h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/gabriel-lazari-49b622202/"><img src="img/linkedin.png" alt="Icone do linkedin" class="linkedin"></a>
-                    <a href="https://github.com/NewMiniBoss"><img src="img/github.png" alt="Icone do github" class="github"></a>
-                </li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="css/bodyStyle.css">
+    <link rel="stylesheet" href="css/headerStyle.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/footerStyle.css">
+    <title>Portifólio | Gabriel Lazari</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+     <img class="cabecalho__imagem" src="img/git.jpeg" alt="Logo da comunidade">
+     <nav class="cabecalho__menu">
+        <a class="cabecalho__menu-item" href="https://www.linkedin.com/in/gabriel-lazari-49b622202/">Linkedin</a>
+        <a class="cabecalho__menu-item" href="https://github.com/NewMiniBoss">GitHub</a>
+        <a class="cabecalho__menu-item" href="https://api.whatsapp.com/qr/RL5XZ6I52RRDG1?autoload=1&app_absent=0">Whatsapp</a>
+     </nav>
     </header>
 
-    <main>
-        <img src="img/gabriel.png" alt="Foto do Gabriel" class="foto-gabriel">
-        <div>
-            <h2>Gabriel Fernandes Lazari</h2>
-            <h3><em>Desenvolvedor Front-End</em></h3>
-            <br><br>
-            <p>Olá, caro leitor. Em 2021 me descobri programador e atualmente sou apaixonado pela profissão.</p>
-            <p>Desde então, tenho estudado e me dedicado muito, estou me aperfeiçoando em <em>front-end</em> e possuo imenso interesse em <em>back-end</em>, pois futuramente quero ser um <em>full-stack.</em></p>
+    <main class="conteudo">
+      <section class="conteudo__principal">
+        <div class="conteudo__principal-escrita">
+           <h1 class="conteudo__principal-titulo">Gabriel Fernandes Lazari</h1>
+           <h2 class="conteudo__principal-subtitulo">Desenvolvedor front-end júnior</h2>
+           <a><button class="conteudo__principal-botao">Me contrate!</button></a>
         </div>
-        <br><br>
-        <hr>
+        <img class="conteudo__principal-imagem" src="img/gabriel.jpg" alt="Foto do Gabriel">
+      </section>
+        
+      <section class="conteudo__secundario">
+        <h3 class="conteudo__secundario-titulo">O que eu sei?</h3>
+        <p class="conteudo__secundario-paragrafo">HTML5, CSS3 e JavaScript.</p>
+        <h4 class="conteudo__secundario-titulo">Resumo de meus conhecimentos</h4>
+        <p class="conteudo__secundario-paragrafo">HTML5 & CSS3: Posicionamento, listas, navegação, formulários, tabelas, grid, flex-box e layouts responsivos.
+          <br> 
+          JavaScript: Interfaces, orientação a objetos, paginas dinamicas e animações.
+          <br>
+          Acessibilidade WEB: tornando o front-end inclusivo.
+        </p>
+        <h4 class="conteudo__secundario-titulo">O que eu almejo?</h4>
+        <p class="conteudo__secundario-paragrafo">Ser um full-stack, dominando diversas tecnologias e metodos ágeis.</p>
+      </section>
     </main>
 
-    <footer>
-        <div>
-            <h3>Habilidades</h3>
-            <br>
-            <ul>
-                <li>
-                    <a><img src="img/html-5.png" alt="" class="html"></a>
-                    <a><img src="img/css-3.png" alt="" class="css"></a>
-                    <a><img src="img/JavaScript.png" alt="" class="javascript"></a>
-                </li>
-            </ul>
-        </div>
-    </footer>    
-</body>
+    <footer class="rodape">
+      <a href="#"><button class="conteudo__principal-botao1">Estou a disposição!</button></a>
+    </footer>
+  </body>
+
 </html>
