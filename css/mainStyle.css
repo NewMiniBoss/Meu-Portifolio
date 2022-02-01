@@ -58,6 +58,7 @@
   font-size: 18px;
   transition: 1s;
 }
+
 .conteudo__principal-botao:hover {
   color: #fff;
   background-color: green;
@@ -95,4 +96,41 @@
   font-size: 17px;
   font-weight: 300;
   color: #ECD6C4;
+}
+
+@media screen and (max-width: 398px) {
+  .conteudo__principal-titulo {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  
+  .conteudo__principal-subtitulo {
+    font-size: 18px;
+    margin: 60% auto 0;
+  }
+
+  .conteudo__principal-imagem {
+    width: 40%;
+    border-radius: 1000px;
+    position: absolute;
+    margin: -20px auto;
+    
+  }
+  
+  .conteudo__principal-botao-link {
+   margin: 0 auto;
+  }
+
+  .conteudo__secundario-titulo {
+    font-size: 20px;
+  }
+
+  .conteudo__secundario {
+    margin: 0 auto;
+  }
+
+  .conteudo__secundario-paragrafo {
+    margin: 0 0 0 8px;
+    font-size: 13px;
+  }
 }
